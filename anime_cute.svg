@@ -1,0 +1,300 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1200" viewBox="0 0 900 1200">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffe9f0"/>
+      <stop offset="20%" stop-color="#ffc4cf"/>
+      <stop offset="45%" stop-color="#f0a5bd"/>
+      <stop offset="68%" stop-color="#b87fc0"/>
+      <stop offset="88%" stop-color="#6b4a8c"/>
+      <stop offset="100%" stop-color="#2a1c3a"/>
+    </linearGradient>
+    <radialGradient id="sunGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff6e0" stop-opacity="0.95"/>
+      <stop offset="42%" stop-color="#ffd0b4" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#ff9fb8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="hairBack" x1="0.2" y1="0" x2="0.8" y2="1">
+      <stop offset="0%" stop-color="#6b3350"/>
+      <stop offset="35%" stop-color="#4e2138"/>
+      <stop offset="72%" stop-color="#341327"/>
+      <stop offset="100%" stop-color="#1f0c1a"/>
+    </linearGradient>
+    <linearGradient id="hairFront" x1="0.15" y1="0" x2="0.85" y2="1">
+      <stop offset="0%" stop-color="#a25a7c"/>
+      <stop offset="28%" stop-color="#7a3c5a"/>
+      <stop offset="62%" stop-color="#552439"/>
+      <stop offset="100%" stop-color="#38162a"/>
+    </linearGradient>
+    <linearGradient id="skin" x1="0.3" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#fff5ec"/>
+      <stop offset="50%" stop-color="#fde2d4"/>
+      <stop offset="100%" stop-color="#f4c6b2"/>
+    </linearGradient>
+    <linearGradient id="irisG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7d3306"/>
+      <stop offset="28%" stop-color="#e08d1f"/>
+      <stop offset="58%" stop-color="#ffc65a"/>
+      <stop offset="86%" stop-color="#ffefbb"/>
+      <stop offset="100%" stop-color="#ffe8a0"/>
+    </linearGradient>
+    <linearGradient id="sclera" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e4eafa"/>
+      <stop offset="35%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f8f5ff"/>
+    </linearGradient>
+    <linearGradient id="topG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2a2436"/>
+      <stop offset="100%" stop-color="#0f0c16"/>
+    </linearGradient>
+    <linearGradient id="petalG" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffe6f0"/>
+      <stop offset="100%" stop-color="#ff9ab9"/>
+    </linearGradient>
+    <radialGradient id="cheek" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ff8296" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#ff8296" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="bokeh" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffe7f2" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#ffe7f2" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- 배경 -->
+  <rect width="900" height="1200" fill="url(#sky)"/>
+  <circle cx="450" cy="440" r="340" fill="url(#sunGlow)"/>
+  <g opacity="0.14" fill="#fff7ec">
+    <path d="M450,110 L600,450 L450,450 Z"/>
+    <path d="M450,110 L300,450 L450,450 Z"/>
+    <path d="M450,110 L80,420 L450,450 Z" opacity="0.5"/>
+    <path d="M450,110 L820,420 L450,450 Z" opacity="0.5"/>
+  </g>
+  <g fill="#fff2f6" opacity="0.28">
+    <ellipse cx="170" cy="290" rx="160" ry="28"/>
+    <ellipse cx="250" cy="266" rx="95" ry="20"/>
+    <ellipse cx="750" cy="230" rx="140" ry="24"/>
+    <ellipse cx="700" cy="206" rx="85" ry="16"/>
+  </g>
+  <g fill="url(#bokeh)">
+    <circle cx="120" cy="420" r="60"/>
+    <circle cx="790" cy="520" r="80"/>
+    <circle cx="180" cy="760" r="70"/>
+    <circle cx="720" cy="880" r="90"/>
+  </g>
+
+  <!-- 뒤 머리 -->
+  <path d="M450,176
+           C292,176 208,292 204,428
+           C200,552 188,712 174,872
+           C164,990 148,1104 126,1200
+           L774,1200
+           C752,1104 736,990 726,872
+           C712,712 700,552 696,428
+           C692,292 608,176 450,176 Z" fill="url(#hairBack)"/>
+  <g fill="#180a16" opacity="0.42">
+    <path d="M254,476 C244,616 234,786 216,1004 L252,1008 C270,786 280,620 288,480 Z"/>
+    <path d="M646,476 C656,616 666,786 684,1004 L648,1008 C630,786 620,620 612,480 Z"/>
+    <path d="M450,600 C438,740 436,900 430,1040 L470,1040 C474,900 472,740 466,600 Z" opacity="0.45"/>
+  </g>
+  <g fill="#a55b7c" opacity="0.4">
+    <path d="M256,436 C250,526 248,606 244,696 L286,696 C288,606 290,526 292,438 Z"/>
+    <path d="M608,438 C610,526 612,606 614,696 L656,696 C652,606 650,526 644,436 Z"/>
+  </g>
+  <!-- 윤슬 (림라이트) -->
+  <path d="M450,176 C292,176 208,292 204,428 C200,552 188,712 174,872 C164,990 148,1104 126,1200"
+        stroke="#ffb6cd" stroke-width="7" fill="none" opacity="0.45"/>
+  <path d="M450,176 C608,176 692,292 696,428 C700,552 712,712 726,872 C736,990 752,1104 774,1200"
+        stroke="#ffb6cd" stroke-width="7" fill="none" opacity="0.35"/>
+
+  <!-- 목 -->
+  <path d="M400,636 L400,736 C400,786 500,786 500,736 L500,636 Z" fill="#f2c3b1"/>
+  <path d="M400,636 L400,694 C422,718 478,718 500,694 L500,636 Z" fill="#d89680" opacity="0.62"/>
+
+  <!-- 어깨 (민소매 오프숄더) -->
+  <path d="M450,752
+           C352,764 240,826 192,956
+           C172,1016 158,1096 152,1200
+           L748,1200
+           C742,1096 728,1016 708,956
+           C660,826 548,764 450,752 Z" fill="url(#skin)"/>
+  <!-- 쇄골 -->
+  <g stroke="#e3a795" stroke-width="4" fill="none" stroke-linecap="round" opacity="0.65">
+    <path d="M392,872 C420,886 452,890 470,888"/>
+    <path d="M508,868 C486,884 470,890 462,890" opacity="0.5"/>
+  </g>
+  <path d="M450,900 C446,940 446,970 450,986" stroke="#e3a795" stroke-width="3" fill="none" opacity="0.4"/>
+
+  <!-- 검은 오프숄더 톱 -->
+  <path d="M168,1200
+           C174,1078 188,996 206,942
+           C250,984 334,1012 450,1012
+           C566,1012 650,984 694,942
+           C712,996 726,1078 732,1200 Z" fill="url(#topG)"/>
+  <path d="M206,942 C250,984 334,1012 450,1012 C566,1012 650,984 694,942"
+        stroke="#4b4360" stroke-width="6" fill="none" opacity="0.9"/>
+  <path d="M206,942 C214,960 226,978 240,990" stroke="#ffffff" stroke-width="3" fill="none" opacity="0.18"/>
+  <path d="M694,942 C686,960 674,978 660,990" stroke="#ffffff" stroke-width="3" fill="none" opacity="0.12"/>
+  <!-- 목걸이 -->
+  <path d="M404,906 C418,948 482,948 496,906" stroke="#f0d08a" stroke-width="3" fill="none" opacity="0.95"/>
+  <circle cx="450" cy="944" r="7" fill="#ffd98a"/>
+  <circle cx="450" cy="944" r="3.5" fill="#fff3c8"/>
+
+  <!-- 얼굴 -->
+  <path d="M450,210
+           C562,210 626,288 626,392
+           C626,478 600,554 548,622
+           C516,664 482,694 450,698
+           C418,694 384,664 352,622
+           C300,554 274,478 274,392
+           C274,288 338,210 450,210 Z" fill="url(#skin)"/>
+  <path d="M450,210 C562,210 626,288 626,392 C626,478 600,554 548,622
+           C516,664 482,694 450,698 C490,642 514,558 514,472
+           C514,378 494,282 450,210 Z" fill="#e8b1a0" opacity="0.3"/>
+  <!-- 앞머리 그림자 -->
+  <path d="M296,332 C318,300 372,282 450,282 C528,282 582,300 604,332
+           C608,378 604,402 600,426 C542,384 510,364 450,364
+           C390,364 358,384 300,426 C296,402 292,378 296,332 Z"
+        fill="#d89680" opacity="0.45"/>
+
+  <!-- 눈썹 -->
+  <path d="M310,414 C336,400 368,396 396,404" stroke="#6a4048" stroke-width="5" stroke-linecap="round" fill="none" opacity="0.75"/>
+  <path d="M590,414 C564,400 532,396 504,404" stroke="#6a4048" stroke-width="5" stroke-linecap="round" fill="none" opacity="0.75"/>
+
+  <!-- 왼눈 -->
+  <g>
+    <path d="M312,498 C314,466 336,446 368,446 C400,446 424,466 426,498
+             C428,528 400,548 368,546 C336,544 310,528 312,498 Z" fill="#fdf7f3"/>
+    <ellipse cx="368" cy="498" rx="30" ry="36" fill="url(#irisG)"/>
+    <ellipse cx="368" cy="498" rx="30" ry="36" fill="none" stroke="#4a1c02" stroke-width="2.4" opacity="0.55"/>
+    <ellipse cx="368" cy="502" rx="11" ry="16" fill="#2a1104"/>
+    <ellipse cx="368" cy="522" rx="19" ry="13" fill="#fff4c8" opacity="0.55"/>
+    <ellipse cx="354" cy="482" rx="10" ry="8" fill="#ffffff" opacity="0.98" transform="rotate(-18 354 482)"/>
+    <circle cx="386" cy="516" r="4.5" fill="#ffffff" opacity="0.9"/>
+    <circle cx="380" cy="474" r="3" fill="#ffffff" opacity="0.75"/>
+    <path d="M312,498 C314,466 336,446 368,446 C400,446 424,466 426,498
+             C418,484 398,472 368,472 C338,472 318,484 312,498 Z"
+          fill="url(#skin)" opacity="0.97"/>
+    <path d="M316,504 C318,470 338,450 368,450 C400,450 422,468 426,494
+             C430,504 434,510 438,516
+             C432,508 428,504 424,500
+             C420,478 398,462 368,462 C340,462 322,478 316,504 Z"
+          fill="#33202a"/>
+  </g>
+
+  <!-- 오른눈 (반전) -->
+  <g transform="translate(900,0) scale(-1,1)">
+    <path d="M312,498 C314,466 336,446 368,446 C400,446 424,466 426,498
+             C428,528 400,548 368,546 C336,544 310,528 312,498 Z" fill="#fdf7f3"/>
+    <ellipse cx="368" cy="498" rx="30" ry="36" fill="url(#irisG)"/>
+    <ellipse cx="368" cy="498" rx="30" ry="36" fill="none" stroke="#4a1c02" stroke-width="2.4" opacity="0.55"/>
+    <ellipse cx="368" cy="502" rx="11" ry="16" fill="#2a1104"/>
+    <ellipse cx="368" cy="522" rx="19" ry="13" fill="#fff4c8" opacity="0.55"/>
+    <ellipse cx="354" cy="482" rx="10" ry="8" fill="#ffffff" opacity="0.98" transform="rotate(-18 354 482)"/>
+    <circle cx="386" cy="516" r="4.5" fill="#ffffff" opacity="0.9"/>
+    <circle cx="380" cy="474" r="3" fill="#ffffff" opacity="0.75"/>
+    <path d="M312,498 C314,466 336,446 368,446 C400,446 424,466 426,498
+             C418,484 398,472 368,472 C338,472 318,484 312,498 Z"
+          fill="url(#skin)" opacity="0.97"/>
+    <path d="M316,504 C318,470 338,450 368,450 C400,450 422,468 426,494
+             C430,504 434,510 438,516
+             C432,508 428,504 424,500
+             C420,478 398,462 368,462 C340,462 322,478 316,504 Z"
+          fill="#33202a"/>
+  </g>
+
+  <!-- 코 -->
+  <path d="M446,570 C452,578 460,576 460,568" stroke="#c4837a" stroke-width="3.2" stroke-linecap="round" fill="none" opacity="0.9"/>
+
+  <!-- 볼 홍조 -->
+  <ellipse cx="330" cy="566" rx="50" ry="28" fill="url(#cheek)"/>
+  <ellipse cx="570" cy="566" rx="50" ry="28" fill="url(#cheek)"/>
+  <g stroke="#ff7d90" stroke-width="3.4" stroke-linecap="round" opacity="0.5">
+    <path d="M304,558 L312,570"/><path d="M320,555 L328,567"/><path d="M336,558 L344,570"/>
+    <path d="M596,558 L588,570"/><path d="M580,555 L572,567"/><path d="M564,558 L556,570"/>
+  </g>
+
+  <!-- 입 (살짝 벌림) -->
+  <path d="M420,602 C434,596 466,596 480,602
+           C470,626 462,634 450,634 C438,634 430,626 420,602 Z" fill="#a83445"/>
+  <path d="M434,620 C440,628 460,628 466,620 C460,632 440,632 434,620 Z" fill="#e8798c"/>
+  <path d="M420,602 C432,610 468,610 480,602" stroke="#f0a0a8" stroke-width="3" fill="none" opacity="0.8"/>
+  <path d="M450,614 C450,620 450,624 450,626" stroke="#7d2130" stroke-width="2.5" fill="none" opacity="0.6"/>
+  <path d="M414,598 C428,588 472,588 486,598" stroke="#c9535f" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.85"/>
+
+  <!-- 앞머리 -->
+  <path d="M232,392
+           C234,268 318,186 450,186
+           C582,186 666,268 668,392
+           C648,340 626,300 606,282
+           C602,320 600,344 598,368
+           C576,320 556,296 538,282
+           C532,326 528,360 524,398
+           C500,330 480,300 458,282
+           C458,310 460,328 462,350
+           C426,326 406,300 382,284
+           C378,326 380,362 382,398
+           C358,344 338,312 318,290
+           C312,320 308,340 304,360
+           C284,330 264,306 232,286
+           C236,320 232,356 232,392 Z"
+        fill="url(#hairFront)" stroke="url(#hairFront)" stroke-width="10" stroke-linejoin="round"/>
+  <!-- 앞머리 광택 -->
+  <path d="M256,350 C280,266 358,218 450,216 C542,218 620,266 644,350"
+        stroke="#ffffff" stroke-width="15" stroke-linecap="round" fill="none" opacity="0.2"/>
+  <path d="M296,320 C328,268 372,242 422,234" stroke="#ffd9e6" stroke-width="8" stroke-linecap="round" fill="none" opacity="0.36"/>
+  <path d="M604,320 C572,268 528,242 478,234" stroke="#ffd9e6" stroke-width="8" stroke-linecap="round" fill="none" opacity="0.28"/>
+  <g stroke="#2a0f22" stroke-width="3" fill="none" opacity="0.45" stroke-linecap="round">
+    <path d="M420,236 C412,290 404,330 396,352"/>
+    <path d="M482,236 C490,290 498,330 506,352"/>
+    <path d="M338,258 C324,306 314,342 304,366"/>
+    <path d="M562,258 C576,306 586,342 596,366"/>
+  </g>
+
+  <!-- 옆머리 -->
+  <path d="M238,330 C212,446 210,574 220,700 C228,806 222,904 200,990
+           C250,956 282,866 288,770 C296,654 292,520 288,376 Z" fill="url(#hairFront)"/>
+  <path d="M662,330 C688,446 690,574 680,700 C672,806 678,904 700,990
+           C650,956 618,866 612,770 C604,654 608,520 612,376 Z" fill="url(#hairFront)"/>
+  <!-- 가슴 위로 흐르는 머리 -->
+  <path d="M604,700 C626,806 616,918 578,1006 C616,972 654,884 650,788 Z" fill="url(#hairFront)" opacity="0.95"/>
+  <path d="M296,700 C272,806 282,918 320,1006 C282,972 246,884 250,788 Z" fill="url(#hairFront)" opacity="0.9"/>
+  <path d="M254,404 C242,506 242,616 250,708" stroke="#ffd9e6" stroke-width="6" stroke-linecap="round" fill="none" opacity="0.22"/>
+  <path d="M646,404 C658,506 658,616 650,708" stroke="#ffd9e6" stroke-width="6" stroke-linecap="round" fill="none" opacity="0.22"/>
+
+  <!-- 삐침머리 -->
+  <path d="M472,192 C504,142 548,130 578,150 C548,152 518,172 498,206 Z" fill="url(#hairFront)"/>
+
+  <!-- 벚꽃 머리핀 -->
+  <g transform="translate(600,352) rotate(-18)">
+    <g fill="url(#petalG)">
+      <ellipse cx="0" cy="-22" rx="13" ry="19"/>
+      <ellipse cx="21" cy="-7" rx="13" ry="19" transform="rotate(72 21 -7)"/>
+      <ellipse cx="13" cy="18" rx="13" ry="19" transform="rotate(144 13 18)"/>
+      <ellipse cx="-13" cy="18" rx="13" ry="19" transform="rotate(216 -13 18)"/>
+      <ellipse cx="-21" cy="-7" rx="13" ry="19" transform="rotate(288 -21 -7)"/>
+    </g>
+    <circle cx="0" cy="0" r="7" fill="#ffe9a8"/>
+    <circle cx="0" cy="0" r="3.2" fill="#f7c96b"/>
+  </g>
+
+  <!-- 꽃잎 -->
+  <g fill="url(#petalG)">
+    <g transform="translate(112,300) rotate(24)" opacity="0.9"><ellipse rx="13" ry="7"/></g>
+    <g transform="translate(772,398) rotate(-32)" opacity="0.85"><ellipse rx="11" ry="6"/></g>
+    <g transform="translate(84,646) rotate(58)" opacity="0.72"><ellipse rx="10" ry="5.5"/></g>
+    <g transform="translate(812,706) rotate(-14)" opacity="0.8"><ellipse rx="13" ry="7"/></g>
+    <g transform="translate(140,912) rotate(44)" opacity="0.66"><ellipse rx="10" ry="5.5"/></g>
+    <g transform="translate(752,986) rotate(-58)" opacity="0.6"><ellipse rx="9" ry="5"/></g>
+    <g transform="translate(690,168) rotate(12)" opacity="0.78"><ellipse rx="10" ry="5.5"/></g>
+    <g transform="translate(196,146) rotate(-20)" opacity="0.72"><ellipse rx="9" ry="5"/></g>
+    <g transform="translate(866,540) rotate(70)" opacity="0.55"><ellipse rx="9" ry="5"/></g>
+    <g transform="translate(52,1082) rotate(-40)" opacity="0.55"><ellipse rx="11" ry="6"/></g>
+  </g>
+  <!-- 반짝임 -->
+  <g fill="#fff8ee" opacity="0.85">
+    <path d="M160,520 L166,542 L188,548 L166,554 L160,576 L154,554 L132,548 L154,542 Z"/>
+    <path d="M742,858 L747,875 L764,880 L747,885 L742,902 L737,885 L720,880 L737,875 Z" opacity="0.7"/>
+    <path d="M628,104 L633,118 L647,123 L633,128 L628,142 L623,128 L609,123 L623,118 Z"/>
+    <path d="M108,772 L112,785 L125,789 L112,793 L108,806 L104,793 L91,789 L104,785 Z" opacity="0.6"/>
+  </g>
+</svg>
